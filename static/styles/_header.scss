@@ -1,0 +1,51 @@
+.Header {
+
+    padding: 1.5em 1em;
+
+    &-wrapper {
+        max-width: 40em;
+        margin: 0 auto;
+    }
+
+
+    &-logo {
+        padding-right: .5em;
+        display: inline-block;
+        vertical-align: middle;
+
+        & img {
+            width: 4em;
+
+            @media screen and (min-width: 40em) {
+                width: 5em;
+            }
+
+            @media screen and (min-width: 60em) {
+                width: 6em;
+            }
+        }
+    }
+}
+
+.Navigation {
+
+    display: inline-block;
+    vertical-align: middle;
+
+    &-links {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    &-link {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    &-link {
+        margin: 0 .5em;
+
+    }
+
+}
