@@ -119,9 +119,9 @@ strong {
 
 .Content {
   -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
   background-color: #FEFEFE;
   padding: 1.5em 1em;
 }
