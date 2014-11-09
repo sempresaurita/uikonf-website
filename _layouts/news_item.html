@@ -1,25 +1,15 @@
 ---
 ---
 {% include top.html %}
-	<body class="Body">
-		{% include header.html %}
-		<main class="Content" role="main">
-			<article class="Home">
-				<div class="is-markdown">
-  <h2> {{ page.title }} </h2>
+<article class="Home">
+	<div class="is-markdown">
+  	  	<h2> {{ page.title }} </h2>
   
-  <div class="post-meta">
-    <a href="https://github.com/{{ page.author }}" class="post-author">
-      <img src="https://github.com/{{ page.author }}.png" class="avatar" alt="{{ page.author }}" width="24" height="24">
-      {{ page.author }} 
-    </a> 
-  </div>
-  <div class="post-content">
-    {{ content }}
-  </div>
-  			</div>
-  		</article>
-  	</main>
-  {% include footer.html %}
-</body>
-</html>
+  		<div class="post-meta">
+    		<a href="https://github.com/{{ page.author }}" class="post-author">
+      	  	  <img src="https://github.com/{{ page.author }}.png" class="avatar" alt="{{ page.author }}" width="24" height="24">    {{ page.author }} </a> 
+  		</div>
+  		<div class="post-content"> {{ content }}</div>
+  	</div>
+ </article>
+{% include bottom.html %}
