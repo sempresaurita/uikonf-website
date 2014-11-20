@@ -6,7 +6,7 @@
 				<nav class="Navigation">
 					<ul class="Navigation-links">
 						{% assign current = page.url | downcase | split: '/' %}
-						    <li class="Navigation-link"><a href='/' {% if page.url == '/index.html' %}class='is-current'{% endif %}>Future</a></li>
+						    <li class="Navigation-link"><a href='/' {% if page.url == '/index.html' %}class='is-current'{% endif %}>2015</a></li>
 						    <li class="Navigation-link"><a href='/about' {% if current[1] == 'about' %}class='is-current'{% endif %}>About</a></li>
 						    <li class="Navigation-link"><a href='/videos' {% if current[1] == 'videos' %}class='is-current'{% endif %}>Videos</a></li>
 						    <li class="Navigation-link"><a href='/news' {% if current[1] == 'news' %}class='is-current'{% endif %}>News</a></li>
