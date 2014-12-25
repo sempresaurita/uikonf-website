@@ -18,10 +18,11 @@ form {
     width: 100%;
 }
 
+fieldset { border:1px solid $link-color }
 
 legend {
   padding: 0.2em 0.5em;
-  border:1px solid $link-color;
+  border: none;
   color:$link-color;
   font-size:90%;
   text-align:right;
