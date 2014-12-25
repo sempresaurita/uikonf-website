@@ -5,17 +5,34 @@ description: Apply for a scholarship for UIKonf 2015
 {% include top.html %}
 	<article class="About">
 		<form accept-charset="UTF-8" action="https://formkeep.com/f/5dfb67d0af8a" method="POST">
-		  <input type="hidden" name="utf8" value="✓">
-		  <label for="name">Your Name</label>
-		  <input type="text" name="name"><br>
-		  <label for="email">Your Email</label>
-		  <input type="email" name="email"><br>
-		  <label for="url">Your Website/Blog</label>
-		  <input type="url" name="url"><br>
-		  <label for="twitter">Your Twitter handle</label>
-  		  <input type="text" name="twitter"><br>
-		  <label for="app">Github Repository URL for your app </label>
-		  <input type="url" name="app"><br>
+		  <fieldset>
+			  <legend>Basic Info</legend>
+			  <input type="hidden" name="utf8" value="✓">
+			  <label for="name">Your Name</label>
+			  <input type="text" name="name" required><br>
+			  <label for="email">Your Email</label>
+			  <input type="email" name="email" required><br>
+			  <label for="url">Your Website/Blog</label>
+			  <input type="url" name="url"><br>
+			  <label for="twitter">Your Twitter handle</label>
+	  		  <input type="text" name="twitter"><br>
+		  </fieldset>
+		  <fieldset>
+			  <legend>Address</legend>
+			  <label for="street">Street</label>
+			  <input type="text" name="street" required><br>
+			  <label for="city">City</label>
+			  <input type="text" name="city" required><br>
+			  <label for="post-code">Post Code</label>
+			  <input type="text" name="post-code" required><br>
+			  <label for="country">Country</label>
+			  <input type="text" name="country" required><br>	
+		  </fieldset>
+		  <fieldset>
+			  <legend>Your App</legend>
+			  <label for="app">Github Repository URL for your app </label>
+		  </fieldset>
+		  <input type="url" name="app" required><br>
 		  <input type="submit" value="Submit"><br>
 		</form>
 	</article>
