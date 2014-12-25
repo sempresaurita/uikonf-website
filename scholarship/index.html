@@ -4,7 +4,7 @@ description: Apply for a scholarship for UIKonf 2015
 ---
 {% include top.html %}
 	<article class="About">
-		<form accept-charset="UTF-8" action="https://formkeep.com/f/5dfb67d0af8a" method="POST">
+		<form accept-charset="UTF-8" action="https://formkeep.com/f/5dfb67d0af8a" method="POST" class="validate-form">
 		  <fieldset>
 			  <legend>Basic Info</legend>
 			  <input type="hidden" name="utf8" value="✓">
@@ -31,11 +31,31 @@ description: Apply for a scholarship for UIKonf 2015
 		  <fieldset>
 			  <legend>Your App</legend>
 			  <label for="app">Github Repository URL for your app </label>
+			  <input type="url" name="app" required><br>
 		  </fieldset>
-		  <input type="url" name="app" required><br>
 		  <input type="submit" value="Submit"><br>
 		</form>
 	</article>
+
+<script>	
+	function hasHtml5Validation () {
+	 return typeof document.createElement('input').checkValidity === 'function';
+	}
+
+	if (hasHtml5Validation()) {
+	 $('.validate-form').submit(function (e) {
+	   if (!this.checkValidity()) {
+	     // Prevent default stops form from firing
+	     e.preventDefault();
+	     $(this).addClass('invalid');
+	     $('#status').html('invalid');
+	   } else {
+	     $(this).removeClass('invalid');
+	     $('#status').html('submitted');
+	   }
+	 });
+	}
+</script>
 	
 {% include bottom.html %}
 		
