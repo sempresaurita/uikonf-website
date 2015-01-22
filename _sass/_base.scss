@@ -70,6 +70,17 @@ img {
     height: auto;
 }
 
+img .speaker-mugshot {
+	float:left; 
+	width:200px;
+	height:200px; 
+	margin-right:30px;
+	border:1px solid #;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;  	
+}
+
 iframe {
     vertical-align: top;
 }
