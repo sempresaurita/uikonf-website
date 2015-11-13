@@ -38,10 +38,10 @@ h1 {
   z-index:3;
   display:block;
   float:left;
-  margin-top:-100px;
+  margin-top:-127px;
   width:100%;
   background: white;
-  transform:skew(0deg,-10deg);
+  transform:skew(0deg,-5deg);
 -ms-transform:skew(0deg,-10deg); /* IE 9 */
 -webkit-transform:skew(0deg, -5deg); /* Safari and Chrome */
 	
@@ -57,7 +57,7 @@ h1 {
 	}
 
 	&.opposite {
-		transform:skew(0deg,10deg);
+		transform:skew(0deg,5deg);
 		-ms-transform:skew(0deg,10deg); /* IE 9 */
 		-webkit-transform:skew(0deg, 5deg); /* Safari and Chrome */
 
@@ -81,7 +81,7 @@ h1 {
 
 .straight {
 	background: white;
-	z-index:2;
+	z-index:3;
   margin-top:-4em;
   position:relative;
   width:100%;
