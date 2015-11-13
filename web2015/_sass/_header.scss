@@ -1,0 +1,19 @@
+.site-header {
+	background: $light-grey;
+	height: 84px;
+
+	.uk-navbar {
+		background: none;
+
+		a {
+			color: $brand-color;
+		}
+	}
+
+	.uk-navbar-brand {
+		line-height: 84px;
+	}
+	.uk-navbar-nav {
+		margin-top: 20px;
+	}
+}

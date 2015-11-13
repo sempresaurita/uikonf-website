@@ -16,17 +16,18 @@
 // Our variables
 $base-font-family: "ff-bau-web", Helvetica, Arial, sans-serif;
 $alternate-font-stack : "AntennaExtraCond", sans-serif;
-$base-font-size:   16px;
+$base-font-size:   18px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$text-color:       #4A4A4A;
+$background-color: #fff;
+$brand-color:      #009FDF;
 
+$light-grey: 		#F5F5F5;
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
@@ -36,8 +37,6 @@ $content-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
-
-
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -56,7 +55,7 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "syntax-highlighting"
+        "header",
+        "button",
+        "general"
 ;

@@ -1,0 +1,10 @@
+.btn {
+	border: 3px solid $brand-color;
+	border-radius: 40px;
+
+	&:hover, &:focus {
+		border: 3px solid $brand-color;
+		background: $brand-color;
+		color: #fff;
+	}
+}
