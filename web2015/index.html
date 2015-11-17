@@ -2,10 +2,11 @@
 layout: default
 ---
 
-<div class="headerimage uk-cover-background uk-position-relative" style="background-image: url(static/images/img-home.jpg);">
+<div class="headerimage uk-cover-background uk-position-relative" style="background-image: url(static/images/img-home.jpg);" data-uk-parallax="{bg: '-20'}">
   <img class="uk-invisible" src="static/images/img-home.jpg" alt="home image">
   <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle">
-      <a>Register now</a>
+      <img src="/static/images/Logo_bigger.png" alt="logo UIKonf">
+      <a class="btn">Register now</a>
       <p>17 - 18 April 2016 /  Heimathafen, Berlin</p>
   </div>
 </div>
@@ -39,7 +40,7 @@ layout: default
             <h1>Speakers</h1>
           </div>
 
-          <div class="speaker-box uk-width-medium-1-2 uk-width-large-1-3">
+          <div class="box uk-width-medium-1-2 uk-width-large-1-3">
             <img src="https://unsplash.it/g/800/800" alt="speaker">
             <div class="info-box">
               <h4>Graham Lee</h4>
@@ -47,7 +48,7 @@ layout: default
             </div>
           </div>
 
-          <div class="speaker-box uk-width-medium-1-2 uk-width-large-1-3">
+          <div class="box uk-width-medium-1-2 uk-width-large-1-3">
             <img src="https://unsplash.it/g/800/800" alt="speaker">
             <div class="info-box">
               <h4>Joyce Newman</h4>
@@ -55,7 +56,7 @@ layout: default
             </div>
           </div>
 
-          <div class="speaker-box uk-width-medium-1-2 uk-width-large-1-3">
+          <div class="box uk-width-medium-1-2 uk-width-large-1-3">
             <img src="https://unsplash.it/g/800/800" alt="speaker">
             <div class="info-box">
               <h4>Jesse Armstrong</h4>
@@ -63,7 +64,7 @@ layout: default
             </div>
           </div>
 
-          <div class="speaker-box uk-width-medium-1-2 uk-width-large-1-3">
+          <div class="box uk-width-medium-1-2 uk-width-large-1-3">
             <img src="https://unsplash.it/g/800/800" alt="speaker">
             <div class="info-box">
               <h4>Christopher Vasquez</h4>
@@ -71,7 +72,7 @@ layout: default
             </div>
           </div>
 
-          <div class="uk-width-medium-1-2 uk-width-large-1-3">
+          <div class="box uk-width-medium-1-2 uk-width-large-1-3">
             <img src="https://unsplash.it/g/800/800" alt="speaker">
             <div class="info-box">
               <h4>Gerald Fuller</h4>
@@ -79,7 +80,7 @@ layout: default
             </div>
           </div>
 
-          <div class="uk-width-medium-1-2 uk-width-large-1-3">
+          <div class="box uk-width-medium-1-2 uk-width-large-1-3">
             <img src="https://unsplash.it/g/800/800" alt="speaker">
             <div class="info-box">
               <h4>Brenda Richards</h4>
@@ -93,8 +94,184 @@ layout: default
 
 <div class="backshape opposite relative">
   <div class="wrapper">
+    <div class="uk-container uk-container-center">
+      <div class="uk-grid">
+        <div class="uk-width-medium-6-10 uk-container-center">
+          <div class="uk-grid">
+            <div class="uk-width-1-1 uk-text-center">
+              <h1>Schedule</h1>
+            </div>
+            <div class="uk-width-1-1">
+              <ul class="uk-subnav uk-subnav-pill" data-uk-switcher="{connect:'#subnav-pill-content-1'}">
+                  <li class="uk-active" aria-expanded="true"><a href="#">17 April</a></li>
+                  <li aria-expanded="false" class=""><a href="#">18 April</a></li>
+              </ul>
+              <div id="subnav-pill-content-1" class="uk-switcher">
+                  <div class="uk-active" aria-hidden="false">
+                    <div class="uk-grid">
+                      <div class="uk-width-medium-2-6 uk-width-1-1">
+                        <p class="light-text"><i class="uk-icon-clock-o"></i> 10:30</p>
+                      </div>
+                      <div class="uk-width-medium-4-6 uk-width-1-1">
+                        <h3 class="brand-color">Robert Guzman</h3>
+                        <p><small>Vestibulum rutrum quam vitae fringilla tincidunt. Suspendisse nec.</small></p>
+                      </div>
+                    </div>
+                    <div class="uk-grid">
+                      <div class="uk-width-medium-2-6 uk-width-1-1">
+                        <p class="light-text"><i class="uk-icon-clock-o"></i> 12:30</p>
+                      </div>
+                      <div class="uk-width-medium-4-6 uk-width-1-1">
+                        <h3 class="brand-color">Juan Phillips</h3>
+                        <p><small>Vestibulum rutrum quam vitae fringilla tincidunt. Suspendisse nec.</small></p>
+                      </div>
+                    </div>
+                    <div class="uk-grid">
+                      <div class="uk-width-1-1">
+                        <p class="uk-text-center">1 hour break</p>
+                      </div>
+                    </div>
+                    <div class="uk-grid">
+                      <div class="uk-width-medium-2-6 uk-width-1-1">
+                        <p class="light-text"><i class="uk-icon-clock-o"></i> 14:30</p>
+                      </div>
+                      <div class="uk-width-medium-4-6 uk-width-1-1">
+                        <h3 class="brand-color">Robert Guzman</h3>
+                        <p><small>Vestibulum rutrum quam vitae fringilla tincidunt. Suspendisse nec.</small></p>
+                      </div>
+                    </div>
+                    <div class="uk-grid">
+                      <div class="uk-width-medium-2-6 uk-width-1-1">
+                        <p class="light-text"><i class="uk-icon-clock-o"></i> 15:30</p>
+                      </div>
+                      <div class="uk-width-medium-4-6 uk-width-1-1">
+                        <h3 class="brand-color">Juan Phillips</h3>
+                        <p><small>Vestibulum rutrum quam vitae fringilla tincidunt. Suspendisse nec.</small></p>
+                      </div>
+                    </div>
+                    <div class="uk-grid">
+                      <div class="uk-width-medium-2-6 uk-width-1-1">
+                        <p class="light-text"><i class="uk-icon-clock-o"></i> 16:30</p>
+                      </div>
+                      <div class="uk-width-medium-4-6 uk-width-1-1">
+                        <h3 class="brand-color">Juan Phillips</h3>
+                        <p><small>Vestibulum rutrum quam vitae fringilla tincidunt. Suspendisse nec.</small></p>
+                      </div>
+                    </div>
+                    <div class="uk-grid">
+                      <div class="uk-width-1-1">
+                        <p class="uk-text-center">10 minutes break</p>
+                      </div>
+                    </div>
+                    <div class="uk-grid">
+                      <div class="uk-width-medium-2-6 uk-width-1-1">
+                        <p class="light-text"><i class="uk-icon-clock-o"></i> 17:30</p>
+                      </div>
+                      <div class="uk-width-medium-4-6 uk-width-1-1">
+                        <h3 class="brand-color">Keith Sims</h3>
+                        <p><small>Vestibulum rutrum quam vitae fringilla tincidunt. Suspendisse nec.</small></p>
+                      </div>
+                    </div>
+                    <div class="uk-grid">
+                      <div class="uk-width-medium-2-6 uk-width-1-1">
+                        <p class="light-text"><i class="uk-icon-clock-o"></i>  19:00</p>
+                      </div>
+                      <div class="uk-width-medium-4-6 uk-width-1-1">
+                        <h3 class="brand-color">Kick-off party</h3>
+                        <p><small><i class="uk-icon-map-o"></i> Vestibulum rutrum quam vitae fringilla tincidunt. Suspendisse nec.</small></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div aria-hidden="true" class="">Hello again!</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
+
+<div class="backshape opposite relative light-grey">
+  <div class="wrapper">
+    <div class="uk-container uk-container-center">
+
+      <div class="uk-grid">
+        <div class="uk-width-1-1">
+          <h1 class="brand-color">Social events</h1>
+        </div>
+        <div class="uk-width-1-1 uk-margin-large-bottom">
+          <p>Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at. Vestibulum nec erat ut mi sollicitudin porttitor id sit amet risus. Nam tempus vel odio vitae aliquam. </p>
+        </div>
+        <div class="box uk-width-medium-1-2 uk-width-large-1-3">
+          <img src="https://unsplash.it/800/800" alt="speaker">
+          <div class="grey info-box">
+            <h4>Amiens</h4>
+            <p><small>Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamcorper bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare. </small></p>
+          </div>
+        </div>
+
+        <div class="box uk-width-medium-1-2 uk-width-large-1-3">
+          <img src="https://unsplash.it/800/800" alt="speaker">
+          <div class="grey info-box">
+            <h4>Boulogne-Billancourt</h4>
+            <p><small>Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamcorper bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare..</small></p>
+          </div>
+        </div>
+
+        <div class="box uk-width-medium-1-2 uk-width-large-1-3">
+          <img src="https://unsplash.it/800/800" alt="speaker">
+          <div class="grey info-box">
+            <h4>Montpellier</h4>
+            <p><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor. Ut eget imperdiet neque. In volutpat ante semper diam molestie, et aliquam erat laoreet. Se.</small></p>
+          </div>
+        </div>
+                <div class="box uk-width-medium-1-2 uk-width-large-1-3">
+          <img src="https://unsplash.it/800/800" alt="speaker">
+          <div class="info-box grey">
+            <h4>Lille</h4>
+            <p><small>Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula.</small></p>
+          </div>
+        </div>
+
+        <div class="box uk-width-medium-1-2 uk-width-large-1-3">
+          <img src="https://unsplash.it/800/800" alt="speaker">
+          <div class="grey info-box">
+            <h4>Limoges</h4>
+            <p><small>In hac habitasse platea dictumst. Vivamus adipiscing fermentum quam volutpat aliquam. Integer et elit eget elit facilisis tristique. Nam vel iaculis mauris. Sed ullamcorper te.</small></p>
+          </div>
+        </div>
+
+        <div class="box uk-width-medium-1-2 uk-width-large-1-3">
+          <img src="https://unsplash.it/800/800" alt="speaker">
+          <div class="grey info-box">
+            <h4>Villeurbanne</h4>
+            <p><small>Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec pharetra id, tempor a tortor. Pellentesque non dignissim neque. Ut porta vive.</small></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="straight brand-color">
+  <div class="uk-container uk-container-center">
+    <div class="uk-grid uk-grid-small">
+      <div class="uk-width-medium-4-10">
+        <h1 class="uk-margin-large-top">Location</h1>
+        <p>Französische Straße 33A-C,<br> 10117 Berlin</p>
+      </div>
+      <div class="uk-width-medium-6-10">
+        <div class="uk-margin-large-top">
+          <iframe width='100%' height='300px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/sempresaurita.o6feg9i9/attribution,zoompan,zoomwheel,geocoder,share.html?access_token=pk.eyJ1Ijoic2VtcHJlc2F1cml0YSIsImEiOiI2NTAwNzI2NDMyMjM5Njg2NWRjYmVmM2M4ZWRiYWJkOCJ9.kozDEMKX1gcd14i2qOdaUg'></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 <!-- <div class="home">
 

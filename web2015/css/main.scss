@@ -14,7 +14,7 @@
 }
 
 // Our variables
-$base-font-family: "ff-bau-web", Helvetica, Arial, sans-serif;
+$base-font-family: "ff-bau-web", sans-serif;
 $alternate-font-stack : "AntennaExtraCond", sans-serif;
 $base-font-size:   18px;
 $base-font-weight: 400;
@@ -23,12 +23,14 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #4A4A4A;
+$text-color:       rgb(74,74,74);
+$light-text-color: rgba(74,74,74, 0.7);
+
 $background-color: #fff;
 $brand-color:      #009FDF;
 
 $light-grey: 		#F5F5F5;
-$grey-color:       #828282;
+$grey-color:       rgb(74,74,74);
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
