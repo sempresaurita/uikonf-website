@@ -1,8 +1,13 @@
-.btn {
+
+button, li a.btn, a.btn {
 	border: 3px solid $brand-color;
 	border-radius: 40px;
+	cursor: pointer;
+	background: transparent;
+	color: $brand-color;
 
 	&:hover, &:focus {
+		cursor: pointer;
 		border: 3px solid $brand-color;
 		background: $brand-color;
 		color: #fff;
