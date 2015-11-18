@@ -37,8 +37,8 @@ layout: default
 <div class="straight light-grey">
       <div class="uk-container uk-container-center">
         <div class="uk-grid uk-grid-small">
-          <div class="uk-width-1-1">
-            <h1>Speakers</h1>
+          <div class="uk-width-1-1 uk-text-center">
+            <h1 class="brand-color">Speakers</h1>
           </div>
 
           <div class="box uk-width-medium-1-2 uk-width-large-1-3">
@@ -100,14 +100,15 @@ layout: default
         <div class="uk-width-medium-6-10 uk-container-center">
           <div class="uk-grid">
             <div class="uk-width-1-1 uk-text-center">
-              <h1>Schedule</h1>
+              <h1 class="brand-color">Schedule</h1>
             </div>
             <div class="uk-width-1-1">
-              <ul class="uk-subnav uk-subnav-pill" data-uk-switcher="{connect:'#subnav-pill-content-1'}">
-                  <li class="uk-active" aria-expanded="true"><a href="#">17 April</a></li>
-                  <li aria-expanded="false" class=""><a href="#">18 April</a></li>
+
+              <ul class="uk-tab uk-tab-center uk-tab-grid uk-margin-large-bottom" data-uk-tab data-uk-switcher="{connect:'#Schedule'}">
+                  <li class="uk-active uk-width-1-2" aria-expanded="true"><a href="#">17 April</a></li>
+                  <li aria-expanded="false" class="uk-width-1-2"><a href="#">18 April</a></li>
               </ul>
-              <div id="subnav-pill-content-1" class="uk-switcher">
+              <div id="Schedule" class="uk-switcher">
                   <div class="uk-active" aria-hidden="false">
                     <div class="uk-grid">
                       <div class="uk-width-medium-2-6 uk-width-1-1">
@@ -185,6 +186,7 @@ layout: default
                   </div>
                   <div aria-hidden="true" class="">Hello again!</div>
               </div>
+
             </div>
           </div>
         </div>
@@ -198,7 +200,7 @@ layout: default
     <div class="uk-container uk-container-center">
 
       <div class="uk-grid">
-        <div class="uk-width-1-1">
+        <div class="uk-width-1-1 uk-text-center">
           <h1 class="brand-color">Social events</h1>
         </div>
         <div class="uk-width-1-1 uk-margin-large-bottom">

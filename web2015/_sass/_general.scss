@@ -46,6 +46,12 @@ form {
 	}
 }
 
+.uk-tab > li.uk-active > a {
+	border: none;
+	background: $brand-color;
+	color: white;
+}
+
 .teaser-register  {
 	text-align: center;
 	margin-top: -100px;
