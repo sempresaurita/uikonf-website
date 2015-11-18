@@ -8,12 +8,16 @@
 		a {
 			color: $brand-color;
 		}
+		.btn {
+			padding: 0px 20px 0px 20px;
+			height: auto;
+		}
 	}
 
 	.uk-navbar-brand {
 		line-height: 84px;
 	}
 	.uk-navbar-nav {
-		margin-top: 20px;
+		margin-top: 22px;
 	}
 }
