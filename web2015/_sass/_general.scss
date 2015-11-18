@@ -20,7 +20,7 @@ h1,h2,h3,h4,h5,h6 {
 	}
 }
 
-h1 {
+h1, .title-section {
 	padding: 30px 0;
 }
 
@@ -68,7 +68,7 @@ form {
 			border-color: $brand-color;
 		}
 	}
-	p, a {
+	h1, p, a {
 		color: white;
 	}
 }
@@ -179,10 +179,10 @@ form {
 .info-box {
 	position: absolute;
 	bottom: -10px;
-	left: 30px;
+	left: 10px;
 	background: $brand-color;
 	color: #fff;
-	padding: 10px 20px 0px 20px;
+	padding: 10px 20px;
 	width: 65%;
 	z-index: 2;
 
@@ -197,7 +197,7 @@ form {
 	}
 
 	p {
-		margin-top: 0px;
+		margin: 0px;
 	}
 }
 
@@ -205,4 +205,8 @@ form {
 	margin-bottom: 20px;
 	position: relative;
 	padding: 10px;
+
+	& + p {
+		padding: 0 10px;
+	}
 }
