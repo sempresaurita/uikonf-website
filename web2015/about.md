@@ -66,31 +66,31 @@ permalink: /about/
 		        		<h3 class="brand-color title-section">Previous organisers</h3>
 		      		</div>
 
-					<div class="box uk-width-1-5">
+					<div class="box uk-width-large-1-5 uk-width-small-1-3">
 				        <img src="{{ site.baseurl }}/static/images/Engin.jpg" alt="Engin Kurutepe">
 				        <div class="info-box">
 				          <p>Diana Arce</p>
 				        </div>
 					</div>
-					<div class="box uk-width-1-5">
+					<div class="box uk-width-large-1-5 uk-width-small-1-3">
 				        <img src="{{ site.baseurl }}/static/images/Engin.jpg" alt="Engin Kurutepe">
 				        <div class="info-box">
 				          <p>Chris Eidhof</p>
 				        </div>
 					</div>
-					<div class="box uk-width-1-5">
+					<div class="box uk-width-large-1-5 uk-width-small-1-3">
 				        <img src="{{ site.baseurl }}/static/images/Engin.jpg" alt="Engin Kurutepe">
 				        <div class="info-box">
 				          <p>Matt Patterson</p>
 				        </div>
 					</div>
-					<div class="box uk-width-1-5">
+					<div class="box uk-width-large-1-5 uk-width-small-1-3">
 				        <img src="{{ site.baseurl }}/static/images/Engin.jpg" alt="Engin Kurutepe">
 				        <div class="info-box">
 				          <p>Peter Bihr</p>
 				        </div>
 					</div>
-					<div class="box uk-width-1-5">
+					<div class="box uk-width-large-1-5 uk-width-small-1-3">
 				        <img src="{{ site.baseurl }}/static/images/Engin.jpg" alt="Engin Kurutepe">
 				        <div class="info-box">
 				          <p>Max Krüger</p>
