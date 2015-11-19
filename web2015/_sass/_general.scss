@@ -46,6 +46,11 @@ form {
 	}
 }
 
+article.author-post,
+.videos-section {
+	margin-top: -100px;
+}
+
 .uk-tab > li.uk-active > a {
 	border: none;
 	background: $brand-color;
@@ -90,6 +95,10 @@ form {
   background-size:cover;
   position:relative;
   // z-index:-1;
+
+  &.small {
+  	height: 339px;
+  }
 }
 
 .backshape {
