@@ -12,6 +12,14 @@ a, button, input, ul li {
 	font: $base-font-family;
 }
 
+a, .btn, button, a img {
+	-webkit-transition: all 250ms ease-out;
+	-moz-transition: all 250ms ease-out;
+	-ms-transition: all 250ms ease-out;
+	-o-transition: all 250ms ease-out;
+	transition: all 250ms ease-out;
+} 
+
 h1,h2,h3,h4,h5,h6 {
 	font-family: $alternate-font-stack;
 
@@ -38,6 +46,10 @@ h3 {
 
 .wrapper {
 	position: relative;
+}
+
+a.uk-navbar-brand:hover {
+	opacity: 0.8;
 }
 
 form {
