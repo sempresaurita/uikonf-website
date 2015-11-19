@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<div class="headerimage small uk-position-relative" style="background-image: url({{ site.baseurl }}/static/images/news_image.jpg);" data-uk-parallax="{bg: '-50'}">
+  <img class="uk-invisible" src="{{ site.baseurl }}/static/images/news_image.jpg" alt="News image">
+   <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle uk-flex-column">
+   </div>
+</div>
+
+<div class="backshape">
+	<div class="wrapper">
+		<div class="uk-container uk-container-center">
+			<div class="uk-grid">
+				<div class="uk-width-1-1">
+					<h1 class="brand-color uk-text-center">{{ page.title }}</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="straight">
+	<div class="wrapper">
+		<div class="uk-container uk-container-center">
+			<div class="uk-grid">
+				<div class="uk-width-1-2">
+				<ul class="post-list">
+				{% for post in site.posts %}
+				  <li>
+				    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+				    <h2>
+				      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+				    </h2>
+				    <div class="post-content-truncate">
+					  {% if post.content contains "<!-- more -->" %}
+					    {{ post.content | split:"<!-- more -->" | first % }}
+					  {% else %}
+					    {{ post.content | strip_html | truncatewords:100 }}
+					  {% endif %}
+					</div>
+				  </li>
+				{% endfor %}
+				</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
