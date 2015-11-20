@@ -6,7 +6,7 @@ layout: default
 </div>
 
 <div class="backshape">
-	<div class="wrapper">
+	<div class="wrapper small">
 		<div class="uk-container uk-container-center">
 			<div class="uk-grid">
 				<div class="uk-width-1-1">
@@ -21,11 +21,11 @@ layout: default
 	<div class="wrapper">
 		<div class="uk-container uk-container-center">
 		<div class="uk-grid archive-list">
-			<div class="uk-width-medium-8-10 uk-container-center">
+			<div class="uk-width-large-8-10 uk-container-center">
 				
 				<div class="uk-grid">
 				{% for post in site.posts %}
-					<div class="uk-width-2-10">
+					<div class="uk-width-medium-2-10">
 					    <article class="author-post uk-comment">
 						    <header class="uk-comment-header">
 						        {% if post.author %}
@@ -35,7 +35,7 @@ layout: default
 						    </header>
 						</article>
 					</div>
-					<div class="uk-width-8-10">
+					<div class="uk-width-medium-8-10">
 					<div class="post-list">
 					
 					    <p class="post-meta uk-comment-meta">{{ post.date | date: "%b %-d, %Y" }}</p>

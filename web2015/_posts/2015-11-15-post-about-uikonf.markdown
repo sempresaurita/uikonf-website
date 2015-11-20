@@ -5,6 +5,8 @@ date:   2015-11-13 12:40:40 +0100
 categories: news
 author: sabine_geithner
 ---
+![alt text](https://unsplash.it/800/400 "Picture of the event")
+
 Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, vestibulum non enim nec, tempor mollis mi. 
 
 <!-- more -->
