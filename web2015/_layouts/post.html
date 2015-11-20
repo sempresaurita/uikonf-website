@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: page
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -10,13 +10,10 @@ layout: news
 	        <img class="uk-comment-avatar" src="" alt="">
 	        <h4 class="uk-comment-title" itemprop="author" itemscope itemtype="http://schema.org/Person"><a href="#"><span itemprop="name">{{ page.author }}</span></a></h4>
 	        {% endif %}
-	        <div class="uk-comment-meta" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</div>
+	        <time datetime="{{ page.date | date_to_xmlschema }}" class="uk-comment-meta" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
 	    </header>
 	</article>
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-
-    
-    <!-- <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p> -->
   </header>
 
   <div class="post-content" itemprop="articleBody">

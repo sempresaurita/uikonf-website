@@ -4,9 +4,7 @@ title: Videos
 permalink: /videos/
 ---
 
-
-<div class="headerimage small uk-position-relative" style="background-image: url({{ site.baseurl }}/static/images/videos_image.jpg);" data-uk-parallax="{bg: '-50'}">
-  <img class="uk-invisible" src="{{ site.baseurl }}/static/images/videos_image.jpg" alt="Videos image">
+<div class="headerimage small" style="background-image: url({{ site.baseurl }}/static/images/videos_image.jpg);" data-uk-parallax="{bg: '-50'}">
    <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle uk-flex-column">
    </div>
 </div>

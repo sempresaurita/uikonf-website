@@ -1,59 +1,21 @@
 ---
-layout: default
+layout: page
 ---
+ <article class="author-post uk-comment">
+    <header class="uk-comment-header">
+        {% if page.author %}
+        <img class="uk-comment-avatar" src="" alt="">
+        <h4 class="uk-comment-title" itemprop="author" itemscope itemtype="http://schema.org/Person"><a href="#"><span itemprop="name">{{ page.author }}</span></a></h4>
+        {% endif %}
+        <div class="uk-comment-meta" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</div>
+    </header>
+</article>
+<article class="uk-article">
+  <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
 
-<div class="headerimage small uk-position-relative" style="background-image: url({{ site.baseurl }}/static/images/news_image.jpg);" data-uk-parallax="{bg: '-50'}">
-  <img class="uk-invisible" src="{{ site.baseurl }}/static/images/news_image.jpg" alt="News image">
-   <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle uk-flex-column">
-   </div>
-</div>
+	{% for post in site.posts offset: 0 limit: 1  %}
+		{{ post.content }}
+	{% endfor %}
 
-<div class="backshape">
-	<div class="wrapper">
-		<div class="uk-container uk-container-center">
-			<div class="uk-grid">
-				<div class="uk-width-1-1">
-					<!-- <h1 class="brand-color uk-text-center">{{ page.title }}</h1> -->
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+</article>
 
-<div class="straight">
-	<div class="wrapper">
-		<div class="uk-container uk-container-center">
-			<div class="uk-grid">
-				<div class="uk-width-medium-8-10 uk-container-center">
-					 <article class="author-post uk-comment">
-					    <header class="uk-comment-header">
-					        {% if page.author %}
-					        <img class="uk-comment-avatar" src="" alt="">
-					        <h4 class="uk-comment-title" itemprop="author" itemscope itemtype="http://schema.org/Person"><a href="#"><span itemprop="name">{{ page.author }}</span></a></h4>
-					        {% endif %}
-					        <div class="uk-comment-meta" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</div>
-					    </header>
-					</article>
-				</div>
-				<div class="uk-width-medium-8-10 uk-container-center">
-					<article class="uk-article">
-				    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-
-    				{% for post in site.posts offset: 0 limit: 1  %}
-	    				{{ post.content }}
-    				{% endfor %}
-
-    			</article>
-    			<div class="social-sharing uk-margin-large-top">
-    				<a href="#"><img src="{{ site.baseurl }}/static/images/icon-twitter.png" alt="twitter"></a>
-    				<a href="#"><img src="{{ site.baseurl }}/static/images/icon-facebook.png" alt="facebook"></a>
-    				<a href="#"><img src="{{ site.baseurl }}/static/images/icon-googleplus.png" alt="googleplus"></a>
-    			</div>
-    			<div class="uk-text-right uk-margin-large-top">
-    				<a href="{{ site.baseurl }}/archive/">Past posts <i class="uk-icon-long-arrow-right"></i></a>
-    			</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>

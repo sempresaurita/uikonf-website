@@ -58,6 +58,12 @@ form {
 	}
 }
 
+.archive-list {
+	.author-post {
+		margin-top: 15px;
+	}
+}
+
 article.author-post,
 .videos-section {
 	margin-top: -100px;
@@ -95,11 +101,10 @@ article.author-post,
 
 .headerimage {
   background: $brand-color;
-  background-position: middle center; 
   height:500px;
   width:100%;
   background-size:cover;
-  position:relative;
+  // position:relative;
   // z-index:-1;
 
   &.small {
