@@ -19,3 +19,14 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+# Author details
+authors:
+  engin_kurutepe:
+    name: Engin Kurutepe
+    twitter: http://twitter.com/ekurutepe
+    thumbImg: Engin.jpg
+  sabine_geithner:
+    name: Sabine Geithner
+    twitter: http://twitter.com/sabinegeithner
+    thumbImg: Sabine.jpg
