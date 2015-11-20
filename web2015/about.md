@@ -53,7 +53,7 @@ include_in_menu: true
 			      <div class="uk-width-medium-1-2 uk-width-small-1-2 uk-width-large-1-3">
 			      	<div class="box">
 			      		<figure class="uk-overlay uk-overlay-hover">
-							    <img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/Sabine.jpg" alt="Sabine Geithner">
+							    <img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/sabine.jpg" alt="Sabine Geithner">
 							    <a class="uk-position-cover" href="https://twitter.com/sabinegeithner"></a>
 								</figure>
 				        <div class="info-box">

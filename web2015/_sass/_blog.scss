@@ -3,9 +3,13 @@
 img.uk-comment-avatar {
 	height: 46px;
 	width: auto !important;
+	margin: 0px 15px 0px 0px !important;
+}
+.uk-comment-title {
+	margin: 0px;
 }
 
-p.post-meta {
+.uk-comment-meta {
 	font-size: $small-font-size;
 	color: $text-color;
 }
