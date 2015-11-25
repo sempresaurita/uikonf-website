@@ -35,7 +35,6 @@
 		float:left;
 		margin:50px auto 200px;
 		width:100%;
-		// padding:0 5%;
 		transform:skew(0deg, 5deg);
 		-ms-transform:skew(0deg, 10deg);
 		-webkit-transform:skew(0deg, 5deg); 
@@ -126,11 +125,22 @@
 }
 
 .box {
-	margin-bottom: 20px;
+	margin-bottom: 20px !important;
 	position: relative;
 	padding: 10px;
 
 	& + p {
 		padding: 0 10px;
+		
+		@media screen and (max-width: 479px) {
+			width: 80%;
+        	margin: 0 auto;
+    	}
 	}
+
+	@media screen and (max-width: 479px) {
+		width: 80%;
+        margin: 0 auto;
+    }
 }
+
