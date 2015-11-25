@@ -17,6 +17,11 @@ url: "http://clients.antonellatezza.com/" # the base hostname & protocol for you
 twitter_username: uikonf
 github_username:  jekyll
 
+# Pagination
+gems: [jekyll-paginate]
+paginate: 5
+paginate_path: "/blog-posts/page:num/"
+
 # Build settings
 markdown: kramdown
 
