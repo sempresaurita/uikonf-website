@@ -2,7 +2,6 @@
 layout: default
 title: About
 permalink: /about/
-include_in_menu: true
 ---
 
 <div class="headerimage uk-position-relative" style="background-image: url({{ site.baseurl }}/static/images/about_image.jpg);" data-uk-parallax="{bg: '-50'}">

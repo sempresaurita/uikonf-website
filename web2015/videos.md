@@ -2,7 +2,6 @@
 layout: default
 title: Videos
 permalink: /videos/
-include_in_menu: true
 ---
 
 <div class="headerimage small" style="background-image: url({{ site.baseurl }}/static/images/videos_image.jpg);" data-uk-parallax="{bg: '-50'}">

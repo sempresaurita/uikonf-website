@@ -7,14 +7,14 @@
         </a>
           <ul class="uk-navbar-nav uk-hidden-small uk-navbar-flip">
               {% for my_page in site.pages %}
-                {% if my_page.include_in_menu %}
+                {% if my_page.title %}
                 <li>
                   <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
                 </li>
                 {% endif %}
               {% endfor %}
               <li>
-                <a class="page-link" href="{{ '/blog-posts' | prepend: site.baseurl }}">Blog</a>
+                <a class="page-link" href="{{ '/blog' | prepend: site.baseurl }}">Blog</a>
               </li>
               <li>
                 <a class="page-link btn" href="#">Tickets</a>
@@ -36,6 +36,9 @@
                 </li>
                 {% endif %}
               {% endfor %}
+              <li>
+                <a class="page-link" href="{{ '/blog' | prepend: site.baseurl }}">Blog</a>
+              </li>
               <li>
                 <a class="page-link" href="#">Tickets</a>
               </li>
