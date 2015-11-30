@@ -24,11 +24,19 @@ markdown: kramdown
 
 # Author details
 authors:
-  engin_kurutepe:
+  ekurutepe:
     name: Engin Kurutepe
     twitter: http://twitter.com/ekurutepe
     thumbImg: Engin.jpg
-  sabine_geithner:
+  basine:
     name: Sabine Geithner
     twitter: http://twitter.com/sabinegeithner
     thumbImg: sabine.jpg
+  mzaks:
+    name: Maxim Zaks
+    twitter: https://twitter.com/icex33
+    thumbImg: Maxim.jpg
+  chriseidhof:
+    name: Chris Eidhof
+    twitter: https://twitter.com/chriseidhof
+    thumbImg: chris_thumb.jpg
