@@ -1,0 +1,98 @@
+body {
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    color: $text-color;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+}
+a, button, input, ul li {
+	font: $base-font-family;
+}
+
+a, .btn, button, a img {
+	-webkit-transition: all 250ms ease-out;
+	-moz-transition: all 250ms ease-out;
+	-ms-transition: all 250ms ease-out;
+	-o-transition: all 250ms ease-out;
+	transition: all 250ms ease-out;
+} 
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: $alternate-font-stack;
+
+	&.brand-color {
+		color: $brand-color !important;
+	}
+}
+
+h1, .title-section {
+	padding: 30px 0;
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+.relative {
+	position: relative;
+}
+
+.light-text {
+	color: $light-text-color;
+}
+
+.wrapper {
+	position: relative;
+}
+
+a img:hover {
+	opacity: 0.8;
+}
+
+form {
+	input[type="text"], button {
+		border-radius: 40px;
+	}
+}
+
+.archive-list {
+	.author-post {
+		margin-top: 15px;
+	}
+}
+
+.videos-section,
+article.author-post-first {
+	margin-top: -100px;
+}
+
+.uk-tab > li.uk-active > a {
+	border: none;
+	background: $brand-color;
+	color: white;
+}
+
+.teaser-register  {
+	text-align: center;
+	margin-top: -100px;
+	a.btn {
+		display: block;
+		margin: 40px 0 10px;
+		color: white;
+		border-color: white;
+		font-size: 140%;
+		padding: 6px 0;
+
+		&:hover, &:focus {
+			text-decoration: none;
+			border-color: $brand-color;
+		}
+	}
+	h1, p, a {
+		color: white;
+	}
+}
+

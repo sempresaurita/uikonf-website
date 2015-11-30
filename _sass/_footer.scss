@@ -1,48 +1,7 @@
-.Footer {
-
-    padding: 1.5em 1em;
-
-    .Footer-content {
-        max-width: 40em;
-        margin: 0 auto;
-    }
-
-    &-sections {
-        margin: 0 -.5em;
-        padding: 0;
-        list-style: none;
-    }
-
-    &-text {
-        margin-top: .25em;
-        font-size: .75em;
-
-        @media screen and (min-width: 40em) {
-            font-size: .8125em;
-        }
-    }
-
-    &-section {
-        padding: 0 .5em;
-
-        @media screen and (min-width: 25em) {
-            vertical-align: top;
-            display: inline-block;
-            width: 49%;
-        }
-    }
-
-    &-section + &-section {
-        margin-top: 1.5em;
-
-        @media screen and (min-width: 25em) {
-            margin-top: 0;
-        }
-    }
-
-    &-heading {
-        margin: 0;
-        text-align: left;
-    }
-
+.site-footer {
+	
+	.straight {
+		padding-bottom: 83px;
+		margin-bottom: -100px;
+	}
 }
