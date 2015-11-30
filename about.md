@@ -19,7 +19,7 @@ permalink: /about/
 		<div class="uk-container uk-container-center">
 			<div class="uk-grid">
 				<div class="uk-width-1-1 uk-text-center">
-        	<h1 class="brand-color">Current organisers</h1>
+        	<h1 class="brand-color">Current Team</h1>
       	</div>
 
 	    	<div class="uk-width-medium-1-2 uk-width-small-1-2 uk-width-large-1-3">
@@ -72,7 +72,7 @@ permalink: /about/
 			<div class="uk-container uk-container-center">
 				<div class="uk-grid">
 					<div class="uk-width-1-1 uk-text-center">
-        		<h3 class="brand-color title-section">Previous organisers</h3>
+        		<h3 class="brand-color title-section">Alumni</h3>
       		</div>
 
 					<div class="uk-width-large-1-5 uk-width-small-1-2 uk-width-medium-1-3">
