@@ -2,6 +2,7 @@
 layout: default
 title: About
 permalink: /about/
+description: UIKonf - Berlin's independent iOS conference is run by Engin Kurutepe, Maxim Zaks and Sabine Geithner.
 ---
 
 <div class="headerimage uk-position-relative" style="background-image: url({{ site.baseurl }}/static/images/about_image.jpg);" data-uk-parallax="{bg: '-50'}">

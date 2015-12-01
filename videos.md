@@ -2,6 +2,7 @@
 layout: default
 title: Videos
 permalink: /videos/
+description: Watch the videos of UIKonf 2015, 2013 and 2012 or learn more about Berlin's independent iOS developer conference.
 ---
 
 <div class="headerimage small" style="background-image: url({{ site.baseurl }}/static/images/videos_image.jpg);" data-uk-parallax="{bg: '-50'}">
