@@ -1,0 +1,38 @@
+//  Blog 
+
+img.uk-comment-avatar {
+	height: 46px;
+	width: auto !important;
+	margin: 0px 15px 0px 0px !important;
+}
+.uk-comment-title {
+	margin: 0px;
+}
+
+.uk-comment-meta {
+	font-size: $small-font-size;
+	color: $text-color;
+}
+
+.post-title {
+	text-align: center;
+	color: $brand-color;
+}
+.blog-post img {
+	width: 100%;
+}
+
+.post-list img {
+	max-height: 100px;
+	float: left;
+	margin: 10px 20px 10px 0px;
+}
+
+@include media-query($on-laptop) {
+	.blog-post img {
+		width: auto;
+		max-width: 600px;
+		float: left;
+		margin: 10px 20px 10px -100px;
+	}
+}

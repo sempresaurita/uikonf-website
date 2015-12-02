@@ -1,0 +1,54 @@
+---
+layout: page
+description: What's new at UIKonf 2016. Read the latest news about Berlin's independent iOS developer conference.
+---
+
+{% for post in paginator.posts %}
+<div class="blog-post">
+	<article class="author-post uk-comment {% if forloop.first %}author-post-first{% endif %}">
+		<header class="uk-comment-header">
+			{% if post.author %}
+		    <img class="uk-comment-avatar" src="{{ site.baseurl }}/static/images/{{ site.authors[post.author].thumbImg }}" alt="{{ site.authors[post.author].name }}">
+		    <h4 class="uk-comment-title" itemprop="author" itemscope itemtype="http://schema.org/Person"><a href="{{ site.authors[post.author].twitter }}"><span itemprop="name">{{ site.authors[post.author].name }}</span></a></h4>
+		    <div class="uk-comment-meta" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</div>        
+			{% endif %}
+		</header>
+	</article>
+	<article class="uk-article">
+		<h1 class="post-title" itemprop="name headline">{{ post.title }}</h1>
+
+	{{ post.content }}
+
+	</article>
+</div>
+
+<div class="social-sharing uk-margin-large">
+	<a href="#"><img src="{{ site.baseurl }}/static/images/icon-twitter.png" alt="twitter"></a>
+	<a href="#"><img src="{{ site.baseurl }}/static/images/icon-facebook.png" alt="facebook"></a>
+	<a href="#"><img src="{{ site.baseurl }}/static/images/icon-googleplus.png" alt="googleplus"></a>
+</div>
+
+{% endfor %}
+
+<!-- Pagination links -->
+{% if paginator.total_pages > 1 %}
+<div class="pagination uk-text-right">
+  {% if paginator.previous_page %}
+    <a rel="prev" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="uk-icon-long-arrow-left"></i> Prev</a>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      {{ page }}
+    {% elsif page == 1 %}
+      <a href="{{ '/archives' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a rel="next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next <i class="uk-icon-long-arrow-right"></i></a>
+  {% endif %}
+</div>
+{% endif %}

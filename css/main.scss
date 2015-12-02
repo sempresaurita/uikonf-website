@@ -1,0 +1,71 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+@font-face {
+	font-family: 'AntennaExtraCond';
+	src: url('../static/fonts/AntennaExtraCond-Bold.eot');
+	src: url('../static/fonts/AntennaExtraCond-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../static/fonts/AntennaExtraCond-Bold.woff') format('woff'),
+		url('../static/fonts/AntennaExtraCond-Bold.ttf') format('truetype');
+	font-style: normal;
+}
+
+// Our variables
+$base-font-family: "ff-bau-web", sans-serif;
+$alternate-font-stack : "AntennaExtraCond", sans-serif;
+$base-font-size:   18px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.75;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       rgb(74,74,74);
+$light-text-color: rgba(74,74,74, 0.7);
+
+$background-color: #fff;
+$brand-color:      #009FDF;
+
+$light-grey: 		#F5F5F5;
+$grey-color:       rgb(74,74,74);
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          400px;
+$on-laptop:        1024px;
+$on-tablet:        768px;
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (min-width: $device) {
+        @content;
+    }
+}
+
+@mixin media-query-max($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "header",
+        "footer",
+        "diagonal_elements",
+        "button",
+        "blog",
+        "general"
+;

@@ -1,107 +1,242 @@
 ---
-title: UIKonf
+layout: default
 description: UIKonf - Berlin's independent conference for serious iOS developers.
 ---
-{% include top.html %}
-<article class="Home">
-	<div class="is-markdown">
-		<img src="/static/images/heimathafen.png">
-		<h1>See you at UIKonf 2016 in Berlin</h1>
+<div class="headerimage" style="background-image: url({{ site.baseurl }}/static/images/img-home.jpg);" data-uk-parallax="{bg: '-50'}">
+   <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle uk-flex-column">
+      <div class="teaser-register">
+       <img src="{{ site.baseurl }}/static/images/Logo_bigger.png" alt="logo UIKonf">
+        <a class="btn uk-button-large" href="https://ti.to/uikonf/uikonf-2016">Register now</a>
+        <p>22 - 25 May 2016   <a href="#Location"><i class="uk-icon-map-o"></i> Heimathafen, Berlin</a></p>
+     </div>
+   </div>
+</div>
 
-		<p>UIKonf 2015 was a blast! In addition to covering the hottest topics in app development, it was also a great place to meet and connect with great people. To wake up everyone's networking skills, we kicked off UIKonf with social events including a guided tour through a bombshelter and a bike tour through Berlin. The warm-up was followed by two days of learning, networking and eating delicious icecream and finally closed by an after-party and a hackathon.</p>
-		<p>Check out our <a href="https://plus.google.com/photos/116638399840609451453/albums/6157956822886770865" target="_blank">pictures</a> and <a href="https://twitter.com/search?q=%23uikonf" target="_blank">#uikonf on Twitter</a> for the many blog posts that have been written since. If you missed UIKonf or if you want to rewatch the talks, go to our <a href="/videos/index.html">video section</a> or directly to our <a href="https://youtu.be/SDZkKvC8r40?list=PLdr22uU_wISpW6XI1J0S7Lp-X8Km-HaQW" target="_blank">playlist for UIKonf 2015</a>.</p>
-		<p>Make sure to <a href="http://eepurl.com/8iSaj" target="_blank">sign up for our newsletter</a> to be informed when the ticket sale for next year's conference starts.</p>
-      <!--
-			<h3>Sunday, 17th May 2015</h3>
-				<p>Social activities in the afternoon (starting around 15:00) – get to know some nice people before the conference starts. If you are part of UIKonf 2015, you should have received an email with details about the tours. Please <a href="mailto:questions@uikonf.com">get in touch</a> if you did not receive our event information.</p>
-		    <ul>
-		      <li>A visit to the <a href="http://www.sdtb.de/Englisch.55.0.html">Berlin Museum of Technology</a></li>
-		      <li>A guided tour of a <a href="http://berliner-unterwelten.de/home.1.1.html">World War 2 bomb shelter</a></li>
-		      <li>Bike Tour with <a href="https://twitter.com/olebegemann">Ole Begemann</a></li>
-		      <li>A guided tour of the <a href="http://www.thf-berlin.de/en/visit/tours/building-tours/">Tempelhof Airport</a></li>
-		      <li><a href="http://www.berlin.de/en/tourism/rivercruises-boattrips/">A boat tour</a> on the river Spree</li>
-		      <li><a href="http://www.musictours-berlin.de/de/">Berlin Music Tour</a></li>
-		    </ul>
-		    <p>A kick-off in the evening at <a href="https://goo.gl/maps/uvJIr" target="_blank">InFarm</a> from 19:00 on – have a cold beer, chat with other attendees and pick up your conference badge.</p>
-			
-			<h3>Monday & Tuesday - Reactive Native Workshop by Facebook</h3>
-			<p>Location: <a href="https://goo.gl/maps/7pUYf" target="_blank">Heimathafen Neukölln</a>, smaller room upstairs<br/>	
-			Time: 11:30 am - 1:00 pm</p>
-			<p>We are happy to also host a workshop by Facebook engineer <a href="https://twitter.com/nicklockwood" target="_blank">Nick Lockwood</a>. The workshop will be an introduction to <a href="https://facebook.github.io/react-native/" target="_blank">React Native</a> from a native iOS developer's perspective. Nick will cover:</p>
+<div class="backshape brand-color">
+  <div class="wrapper">
+    <div class="uk-container uk-container-center">
+      <div class="uk-grid">
+        <div class="uk-width-medium-8-10 uk-container-center">
+          <div class="uk-grid">
+            <div class="uk-width-1-1">
+              <h1>About UIKonf</h1>
+            </div>
+            <div class="uk-width-medium-1-2">
+              <p>UIKonf is Berlin's independent conference for serious iOS developers. Taking place from May 22rd - 25th 2016 in the cosy atmosphere of Heimathafen Neukölln it is a great place to meet and connect with experienced developers from all over Europe.</p>
+              <p>UIKonf features inspiring speakers giving talks on cutting edge topics in iOS development, mobile design and business.</p>
+            </div>
+            <div class="uk-width-medium-1-2">
+              <p class="uk-contrast">But UIKonf is not only about gathering knowledge. We want to facilitate new connections and friends amongst our great community by providing an inclusive setting where all participants feel safe and welcome. In order to achieve that, we expect all to abide by our <a href="coc">Code of Conduct</a>.</p>
+			  <p>To help people connect, we framed UIKonf with social events which provide an informal environment for meeting like-minded people.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-			<ul><li>What React Native is, and why you would use it</li>
-			<li>Building and debugging a React Native application</li>
-			<li>Integrating React Native views into an existing app</li>
-			<li>Creating native iOS modules and views for use in a React application</li></ul>
-			<p>The workshop will be repeated on each day and include a presentation and live coding demonstration. The workshop is free to attend, be sure to be on time to get a seat.</p>
-		
-			<h3>Monday, 18th May 2015 (Preliminary schedule)</h3>
-			<p>Location: <a href="https://goo.gl/maps/7pUYf" target="_blank">Heimathafen Neukölln</a></p>	
-			<table class="Schedule">
-				<tr class="Schedule-break"><td width="75">09:00</td><td>Registration & Welcome Coffee</td></tr>
-				<tr><td>10:00</td><td><a href="/speakers#Mike-Lee">Mike Lee</a> - "World Modeling"</td></tr>
-				<tr><td>10:35</td><td><a href="/speakers#Natasha-Murashev">Natasha Murashev</a> - "Swift Thinking"</td></tr>
-				<tr class="Schedule-break"><td>11:10</td><td>Coffee Break</td></tr>
-				<tr><td>11:50</td><td><a href="/speakers#Eli-Perkins">Eli Perkins</a> - "Staters Gonna State"</td></tr>
-				<tr><td>12:25</td><td><a href="/speakers#Junior-Bontognali">Junior Bontognali</a> - "Monads are not Monsters"</td></tr>
-				<tr class="Schedule-break"><td>13:00</td><td>Lunch Break</td></tr>
-				<tr><td>14:30</td><td><a href="/speakers#Claus-Hoefele">Claus H&ouml;fele</a> - "Practical WatchKit Development"</td></tr>
-				<tr><td>15:05</td><td><a href="/speakers#Marcel-Weiher">Marcel Weiher</a> - "Software Architecture in iOS and OS X applications"</td></tr>
-				<tr><td>15:40</td><td><a href="/speakers#Tom-Adriaenssen">Tom Adriaenssen</a> - "Async View Controllers"</td></tr>
-				<tr class="Schedule-break"><td>16:15</td><td>Coffee Break</td></tr>
-				<tr><td>17:00</td><td><a href="/speakers#JP-Simard">JP Simard</a> - "Fixing the Swift Tooling Problem"</td></tr>
-				<tr><td>17:35</td><td><a href="/speakers#Ash-Furrow">Ash Furrow</a> - "Teaching and Learning"</td></tr>
-				<tr class="Schedule-break"><td>After</td><td>This evening is free for your own plans. Keep an eye on twitter for spontanious parties.</td></tr>
-			</table>
+<div class="straight">
+    <div class="uk-container uk-container-center">
+      <div class="uk-grid">
+        <div class="uk-width-1-1 uk-text-center">
+          <h1 class="brand-color">Tickets</h1>
+          <p><tito-widget event="uikonf/uikonf-2016"></tito-widget></p>
+    		  <p>Ticket prices exclude VAT (MwSt.) but include free drinks, lunch on the conference days and the UIKonf party.</p>
+        </div>
+	  </div>
+   </div>
+</div>
 
-		<h3>Tuesday, 19th May 2015 (Preliminary schedule)</h3>
-		<p>Location: <a href="https://goo.gl/maps/7pUYf" target="_blank">Heimathafen Neukölln</a></p>	
-		
-		<table class="Schedule">
-			<tr class="Schedule-break"><td width="75">09:00</td><td>Wake-Up Coffee</td></tr>
-			<tr><td>10:00</td><td><a href="/speakers#Halle-Winkler">Halle Winkler</a> - "Duct-taping the gates of chaos shut: the weird, little, useful, sustainable indie (by design)"</td></tr>
-			<tr><td>10:35</td><td><a href="/speakers#Brian-Gesiak">Brian Gesiak</a> - "iOS API Design: Swift Patterns"</td></tr>
-			<tr class="Schedule-break"><td>11:10</td><td>Coffee Break</td></tr>
-			<tr><td>11:50</td><td><a href="/speakers#Joe-Burgess">Joe Burgess</a> - "Learning Swift Through Lessons in Haskell"</td></tr>
-			<tr><td>12:25</td><td><a href="/speakers#Chris-Eidhof">Chris Eidhof</a> - "Functional View Controllers"</td></tr>
-			<tr class="Schedule-break"><td>13:00</td><td>Lunch Break</td></tr>
-			<tr><td>14:30</td><td><a href="/speakers#Hector-Zarate">Hector Zarate</a> - "iOS at Spotify: From Plan to Done"</td></tr>
-			<tr><td>15:05</td><td><a href="/speakers#Jens-Ravens">Jens Ravens</a> - "Functional Reactive Programming without Black Magic - Build your own ReactiveCocoa from scratch"</td></tr>
-			<tr><td>15:40</td><td><a href="/speakers#Saniul-Ahmed">Saniul Ahmed</a> - "Prototyping Touch Interfaces (and my open-source story)"</td></tr>
-			<tr class="Schedule-break"><td>16:15</td><td>Coffee Break</td></tr>
-			<tr><td>17:00</td><td><a href="/speakers#Maxim-Cramer">Maxim Cramer</a> - "A Journey into Design"</td></tr>
-			<tr><td>17:35</td><td><a href="/speakers#Graham-Lee">Graham Lee</a> - "Object-Oriented Programming in Objective-C"</td></tr>
-			<tr class="Schedule-break"><td>21:00</td><td>Official UIKonf Party. Location to be announced.</td></tr>
-	
-		</table>
-		<h3>Wednesday, May 20th</h3>
-		<p>Location: <a href="https://goo.gl/maps/rbxuY" target="_blank">Betahaus</a>, follow the blue arrows</p>	
-		
-    	<p>Hackathon at  (from 9:30 to 20:00) – Hack on fresh new ideas with cool people. Due to limited space, the registration is currently closed to conference participants only. If you are part of UIKonf 2015 you should have received an email to register for the hackathon.</p>
-		 
- 		<table class="Schedule">
- 			<tr class="Schedule-break"><td width="75">09:30</td><td>Registration</td></tr>
- 			<tr><td>10:00</td><td>Intro of challenges</td></tr>
- 			<tr><td>10:30</td><td>Hacking</td></tr>
- 			<tr class="Schedule-break"><td>13:00</td><td>Lunch Break with Pizza</td></tr>
- 			<tr><td>13:30</td><td>Hacking</td></tr>
- 			<tr><td>19:00</td><td>Presentations</td></tr>
- 			<tr class="Schedule-break"><td>20:00</td><td>Selection of best hacks</td></tr>
- 		</table>
-		
-		
- 		<h3><a id="tickets" name="tickets"></a>Tickets</h3>
-		 
-		<p>We are sold out. Thanks for making the conference possible by purchasing a ticket.</p>
-		
-		  
-		<h3><a id="scholarship" name="scholarship"></a>Free Scholarship Tickets</h3>
-		
-		<p>The application period for our <a href="/scholarship/">free scholarship tickets</a> has unfortunately ended. However, if you are unable to afford a ticket, don't hesitate to contact us. We will see what we can do.</p>
-		-->
-		<h3>Information for Sponsors</h3>
-		<p>UIKonf is a great place to meet talented and experienced developers in a less formal context. If you are interested in supporting UIKonf, get in touch with <a href="https://twitter.com/ekurutepe" target="_blank">Engin Kurutepe</a> by sending an email to <a href="mailto:questions@uikonf.com" target="_blank">questions@uikonf.com</a>.</p>
+<div class="backshape opposite light-grey">
+<div class="wrapper">	
+  <div class="uk-container uk-container-center">
+    <div class="uk-grid uk-grid-small">
+      <div class="uk-width-1-1 uk-text-center">
+        <h1 class="brand-color">Speakers</h1>
+    		<p>If you are curious about our first speakers, have a little more patience you must.</p>
+    		<p><a href="http://eepurl.com/8iSaj" target="_blank">Sign up for our newsletter</a>, if you would like to receive an email when we announce the speakers.</p>
+        <p>We select and invite about the half of our speakers. The other half is selected by our community through our anonymous call for proposals system. Details coming soon…</p>
+      </div>
+
+      <!-- <div class="box uk-width-medium-1-2 uk-width-large-1-3">
+        <img src="https://unsplash.it/g/800/800" alt="speaker">
+        <div class="info-box">
+          <h4>Graham Lee</h4>
+          <p><small>web developer at Facebook.</small></p>
+        </div>
+      </div> -->
+      
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="backshape opposite relative">
+  <div class="wrapper">
+    <div class="uk-container uk-container-center">
+      <div class="uk-grid">
+        <div class="uk-width-medium-6-10 uk-container-center">
+          <div class="uk-grid">
+            <div class="uk-width-1-1 uk-text-center">
+              <h1 class="brand-color">Schedule</h1>
+            </div>
+            <div class="uk-width-1-1">
+
+              <ul class="uk-tab uk-tab-center uk-tab-grid uk-margin-large-bottom" data-uk-tab data-uk-switcher="{connect:'#Schedule'}">
+                  <li class="uk-active uk-width-1-3" aria-expanded="true"><a href="#">22 May</a></li>
+                  <li aria-expanded="false" class="uk-width-1-3"><a href="#">23rd &amp; 24th May</a></li>
+                  <li aria-expanded="false" class="uk-width-1-3"><a href="#">25 May</a></li>
+              </ul>
+              <div id="Schedule" class="uk-switcher">
+                  <div class="uk-active" aria-hidden="false">
+                   <div class="uk-grid">
+                     <div class="uk-width-medium-2-6 uk-width-1-1">
+                       <p class="light-text"><i class="uk-icon-clock-o"></i> 14:00</p>
+                     </div>
+                     <div class="uk-width-medium-4-6 uk-width-1-1">
+                       <h3 class="brand-color">Social events</h3>
+                       <p><small>What makes UIKonf great are not just the inspiring talks and speakers, but the ease at which you can meet new people. Make the most of your UIKonf trip to Berlin and join one of our social events to learn more about Berlin while networking with likeminded people.</small></p>
+                     </div>
+                   </div>
+                   <div class="uk-grid">
+                     <div class="uk-width-medium-2-6 uk-width-1-1">
+                       <p class="light-text"><i class="uk-icon-clock-o"></i> 19:00</p>
+                     </div>
+                     <div class="uk-width-medium-4-6 uk-width-1-1">
+                       <h3 class="brand-color">Kick-off party</h3>
+                       <p><small>All social events end at the location of the kick-off party. Pick up your conference badge, grab a beer and meet your fellow coders.</small></p>
+                     </div>
+                   </div>
+                  </div>
+                  <div aria-hidden="true" class="">
+                      <div class="uk-grid">
+                        <div class="uk-width-medium-2-6 uk-width-1-1">
+                          <p class="light-text"><i class="uk-icon-clock-o"></i> 9:00</p>
+                        </div>
+                        <div class="uk-width-medium-4-6 uk-width-1-1">
+                          <h3 class="brand-color">Registration</h3>
+                          <p><small>Sleep in a bit longer and register already on Sunday during the kickoff party. Or enjoy a freshly brewed coffee by Companion Coffee.</small></p>
+                        </div>
+                      </div>
+                    <div class="uk-grid">
+                      <div class="uk-width-medium-2-6 uk-width-1-1">
+                        <p class="light-text"><i class="uk-icon-clock-o"></i> 10:00</p>
+                      </div>
+                      <div class="uk-width-medium-4-6 uk-width-1-1">
+                        <h3 class="brand-color">Talks and Treats</h3>
+                        <p><small>Talks will last for about 30 min each with a 10 min Q &amp; A session.</small></p>
+						<p><small>Enjoy free drinks and lunch with vegan options and icecream in the sun.</small></p>
+                      </div>
+                    </div>
+                    <!-- <div class="uk-grid">
+                      <div class="uk-width-1-1">
+                        <p class="uk-text-center">1 hour lunch break</p>
+                      </div>
+                    </div> -->
+                    <div class="uk-grid">
+                      <div class="uk-width-medium-2-6 uk-width-1-1">
+                        <p class="light-text"><i class="uk-icon-clock-o"></i> 19:00</p>
+                      </div>
+                      <div class="uk-width-medium-4-6 uk-width-1-1">
+                        <h3 class="brand-color">Satellite Events</h3>
+                        <p><small> The conference days close with an afterparty on the 24th. If you want to organize or host a satellite event on the 23rd, <href="mailto:questions@uikonf.com">get in touch with us</a>.</small></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div aria-hidden="true" class="">
+                      <div class="uk-grid">
+                        <div class="uk-width-medium-2-6 uk-width-1-1">
+                          <p class="light-text"><i class="uk-icon-clock-o"></i> 10:00</p>
+                        </div>
+                        <div class="uk-width-medium-4-6 uk-width-1-1">
+                          <h3 class="brand-color">Hackathon, workshops and more!</h3>
+                          <p><small>In addition to taking part in the hackathon you can meet our sponsors, dissect code problems with selected experts or just hang out and code with new friends.</small></p>
+						  <p><small>Do you want to hold a workshop or sponsor a hackathon prize, <a href="mailto:questions@uikonf.com">get in touch with us</a>.</small></p>
+                        </div>
+                      </div>
+					  </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="backshape opposite relative light-grey">
+  <div class="wrapper">
+    <div class="uk-container uk-container-center">
+
+      <div class="uk-grid">
+        <div class="uk-width-1-1 uk-text-center">
+          <h1 class="brand-color">Social Events</h1>
+        </div>
+        <div class="uk-width-1-1 uk-margin-large-bottom">
+          <p>A central part of UIKonf are the social events on the Sunday before the conference. Not only do you get to enjoy Berlin for a day but they also give you a first opportunity to get to know other participants of the conference in a fun atmosphere.</p>
+		  <p>We will ask you to donate a little suggested sum this year for the social events. 100% of what you pay for the social events will be donated to a charity to be announced soon.</p>
+		  <p>This is an incomplete list of planned events. <a href="https://twitter.com/uikonf">Give us a shout</a> if you have an idea or a request for an event:</p>
+        </div>
+        <div class="box uk-width-medium-1-2 uk-width-large-1-3">
+          <img src="https://pbs.twimg.com/media/CFNkD0JW8AEFh6Y.jpg" alt="UIKonf Bike Tour mit Ole Begemann">
+          <div class="grey info-box">
+            <h4>Bike Tour</h4>
+            <p><small>UIKonf bike tour has become a tradition. The tour of 2016 will continue that tradition.</small></p>
+          </div>
+        </div>
+
+        <div class="box uk-width-medium-1-2 uk-width-large-1-3">
+          <img src="https://farm6.staticflickr.com/5060/5423122890_f0a29f219f_b.jpg" alt="Tempelhof Airport photo by Ciaron Linstead">
+          <div class="grey info-box">
+            <h4>Tempelhof Airport Tour</h4>
+            <p><small>Did you ever wonder how Tempelhof airport looks from the inside? This guided tour through the former US airbase opens a window into the past.</small></p>
+          </div>
+        </div>
+
+        <div class="box uk-width-medium-1-2 uk-width-large-1-3">
+          <img src="https://farm4.staticflickr.com/3527/3707617551_e6cdbf57eb_b.jpg" alt="Berliner Kindl photo by Ciaron Linstead">
+          <div class="grey info-box">
+            <h4>Brewery Tour</h4>
+            <p><small>Follow a century old German tradition and learn how to brew beer and of course taste a variety of different beers at the Brewery Tour.</small></p>
+          </div>
+        </div>
+        
+        <div class="box uk-width-medium-1-2 uk-width-large-1-3">
+          <img src="https://farm9.staticflickr.com/8660/15317403773_67169c474b_b.jpg" alt="Flur 2.UG">
+          <div class="grey info-box">
+            <h4>WWII Bunker Tour</h4>
+            <p><small>A guided tour of a WWII bomb shelter.</small></p>
+          </div>
+        </div>
+        
+        <div class="box uk-width-medium-1-2 uk-width-large-1-3">
+          <img src="https://farm6.staticflickr.com/5579/14319617008_1a45a4daea_b.jpg" alt="Touring boats on Spree River &amp; Moltke bridge">
+          <div class="grey info-box">
+            <h4>A Boat Tour on the Spree</h4>
+            <p><small>Relax, enjoy Berlin from a boat and chat with other UIKonf participants.</small></p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
 	</div>
-</article>
-{% include bottom.html %}
+</div>
 
+<div class="straight brand-color">
+  <div class="uk-container uk-container-center">
+    <div class="uk-grid uk-grid-small">
+      <div class="uk-width-medium-4-10">
+        <a name="Location"></a> 
+        <h1 class="uk-margin-large-top">Location</h1>
+        <p>Heimahafen Neukölln,<br>Karl-Marx-Str. 141,<br>12043 Berlin</p>
+      </div>
+      <div class="uk-width-medium-6-10">
+        <div class="uk-margin-large-top">
+<iframe width="100%" height="500px" frameBorder="0" src="https://a.tiles.mapbox.com/v4/uikonf.oa8ij3kf.html?access_token=pk.eyJ1IjoidWlrb25mIiwiYSI6ImNpaG1namMyMDBvODl2YmtsMDZmcnRtMWsifQ.cnQEvgpcgxXePKJoEZ9Z_g#16/52.476717/13.439246999999995"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
