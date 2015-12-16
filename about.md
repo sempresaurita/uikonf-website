@@ -20,7 +20,7 @@ description: UIKonf - Berlin's independent iOS conference is run by Engin Kurute
 		<div class="uk-container uk-container-center">
 			<div class="uk-grid">
 				<div class="uk-width-1-1 uk-text-center">
-        	<h3 class="brand-color uk-margin-large-bottom">Current Team</h3>
+        	<h2 class="brand-color">Current Team</h2>
       	</div>
 
 	    	<div class="uk-width-medium-1-2 uk-width-small-1-2 uk-width-large-1-3">
