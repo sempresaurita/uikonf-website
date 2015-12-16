@@ -20,7 +20,7 @@ description: UIKonf - Berlin's independent iOS conference is run by Engin Kurute
 		<div class="uk-container uk-container-center">
 			<div class="uk-grid">
 				<div class="uk-width-1-1 uk-text-center">
-        	<h1 class="brand-color">Current Team</h1>
+        	<h3 class="brand-color uk-margin-large-bottom">Current Team</h3>
       	</div>
 
 	    	<div class="uk-width-medium-1-2 uk-width-small-1-2 uk-width-large-1-3">
@@ -72,11 +72,10 @@ description: UIKonf - Berlin's independent iOS conference is run by Engin Kurute
 		<div class="previous-organisers">
 			<div class="uk-container uk-container-center">
 				<div class="uk-grid">
-					<div class="uk-width-1-1 uk-text-center">
-        		<h3 class="brand-color title-section">Alumni</h3>
-      		</div>
-
-					<div class="uk-width-large-1-5 uk-width-small-1-2 uk-width-medium-1-3">
+				<div class="uk-width-1-1 uk-text-center">
+        				<h3 class="brand-color title-section">Alumni</h3>
+      		  	</div>
+			  	<div class="uk-width-large-1-5 uk-width-small-1-2 uk-width-medium-1-3">
 						<div class="box">
 							<figure class="uk-overlay uk-overlay-hover">
 						    <img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/diana_thumb.jpg" alt="Diana Arce">
