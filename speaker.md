@@ -3,6 +3,10 @@ layout: default
 title: Speakers
 permalink: /speakers/
 description: UIKonf 2016 - Speaker list 
+redirect_from:
+ - /speakers/boris_buegling.html
+ - /speakers/peter_steinberger.html
+ - /speakers/robbert-boehnke.html
 ---
 
 <div class="headerimage uk-position-relative" style="background-image: url({{ site.baseurl }}/static/images/speakers-header-cropped.jpg);" data-uk-parallax="{bg: '-50'}">

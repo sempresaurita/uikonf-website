@@ -3,6 +3,9 @@ layout: page
 title: Code of Conduct
 permalink: /coc/
 description: UIKonf - Berlin's independent iOS conference – Code of Conduct
+redirect_from:
+ - /code-of-conduct/
+ - /inclusivity/
 ---
 
 #Code of Conduct

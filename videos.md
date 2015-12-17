@@ -3,6 +3,30 @@ layout: default
 title: Videos
 permalink: /videos/
 description: Watch the videos of UIKonf 2015, 2013 and 2012 or learn more about Berlin's independent iOS developer conference.
+redirect_from:
+ - /videos/apps-are-just-the-tip-of-the-iceberg/
+ - /videos/beyond-voiceover/
+ - /videos/build-for-familiarity-or-no-one-will-use-your-app/
+ - /videos/building-better-transitions/
+ - /videos/cocoapods/
+ - /videos/core-data-for-fun-and-profit/
+ - /videos/demystifying-security-best-practices/
+ - /videos/designing-custom-interfaces/
+ - /videos/high-performance-core-data/
+ - /videos/how-i-learned-to-stop-worrying-about-state-and-love-reactivecocoa/
+ - /videos/how-to-bend-uikit-to-your-will/
+ - /videos/image-performance/
+ - /videos/inheriting-code-from-other-people/
+ - /videos/modular-ios-apps/
+ - /videos/objective-c-funtime-know-your-runtime/
+ - /videos/opengl-es-demystified/
+ - /videos/reverse-engineering-ios-apps/
+ - /videos/software-interactions-with-the-real-world/
+ - /videos/techniques-for-writing-dsls-in-objective-c/
+ - /videos/textkit-for-the-rest-of-us/
+ - /videos/unit-testing-on-ios-no-voodoo-necessary/
+ - /videos/use-your-tools-app-optimization-with-instruments/
+ - /videos/were-not-doing-a-startup/
 ---
 
 <div class="headerimage small" style="background-image: url({{ site.baseurl }}/static/images/videos_image.jpg);" data-uk-parallax="{bg: '-50'}">

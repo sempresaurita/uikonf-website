@@ -14,10 +14,15 @@ url: "http://uikonf.com" # the base hostname & protocol for your site
 twitter_username: uikonf
 github_username:  uikonf
 
+# Gems
+gems:
+  - jekyll-redirect-from
+  - jekyll-paginate
+
 # Pagination
-gems: [jekyll-paginate]
 paginate: 5
 paginate_path: "/blog/page:num/"
+
 
 # Build settings
 markdown: kramdown
